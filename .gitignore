@@ -1,5 +1,4 @@
 # Ignore any .env files
 **/*.env
 
-.vscode/
-.idea/
+
