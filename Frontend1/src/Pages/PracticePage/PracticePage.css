@@ -1,0 +1,27 @@
+.practice-layout {
+    
+    padding: 1vh 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+
+  .practice-stepper {
+    /* background-color: #0a293d; */
+    width: 100%;
+    margin: 4rem;
+  }
+  
+  .practice-content {
+    margin: 1vh;
+    border: 1px solid #141414;
+    margin-bottom: 1rem;
+    
+  }
+
+  .box-stepper {
+    gap: 10em;
+  }
+  
+ 

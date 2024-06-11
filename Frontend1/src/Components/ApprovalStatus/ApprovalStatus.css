@@ -1,0 +1,23 @@
+.titulo {
+    text-align: center;
+    background-color: #0a293d;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px; /* Tamaño de fuente reducido */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }

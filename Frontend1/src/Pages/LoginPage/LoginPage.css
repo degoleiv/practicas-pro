@@ -1,0 +1,44 @@
+.login-content {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  color: #0a293d;
+  height: 77vh;
+}
+
+
+.img-login {
+  width: 100%;
+  height: 10vw; /* Cambiar el ancho a 300 píxeles */
+    
+}
+.subtitulo {
+  font-size: 20px; /* Tamaño de fuente pequeño */
+  color: #999; /* Color de texto gris */
+  margin-bottom: 5px; /* Espacio en la parte inferior */
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 1rem;
+}
+.boton-login {
+  background-color: #f3db00; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  padding: 15px 25px; /* Espacio interno para el contenido */
+  font-size: 18px; /* Tamaño del texto */
+  border: none; /* Sin borde */
+  border-radius: 8px; /* Borde redondeado */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+}
+
+/* Cambiar el color del botón al pasar sobre él */
+.boton-login:hover {
+  background-color: #dbc500; /* Color de fondo azul oscuro */
+}

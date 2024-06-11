@@ -1,0 +1,50 @@
+.contenedor_clas {
+    display: flex;
+    
+  }
+  
+  .columna_clas {
+    flex: 0.5;
+    padding: 20px;
+    margin: 11px;
+  }
+  
+  .columna1_clas {
+    background-color: #eeeeee;
+
+  }
+  
+  .columna2_cals {
+    background-color: #eeeeee;
+  }
+
+
+  .h2_clasificacion{
+    font-family: Arial, sans-serif;
+    font-size: 20px; 
+    color: #0a293d; 
+    display:flex;
+  }
+  
+.button_enviar_clasificacion{
+  text-align: center;
+    background-color: #0a293d;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: 'flex';
+}
+.cont_boton{
+  text-align: right;
+}
+
+.h1_clas{
+    color: #0e1c84;
+    font-family: Arial, sans-serif;
+    font-size: 30px; display: 'flex';
+    margin: 11px;
+    
+  }

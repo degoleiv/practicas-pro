@@ -1,0 +1,17 @@
+.PageBar {
+  background-color: #0a293d;
+  /* padding: 10px; */
+  text-align: left;
+  align-items: baseline; 
+  align-content: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  height: 4vh;
+  padding: 1vh;
+}
+

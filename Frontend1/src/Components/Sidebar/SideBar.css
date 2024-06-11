@@ -1,0 +1,39 @@
+.sidebar-container{
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+  
+
+  
+  .sidebar {
+    position: fixed;
+    height: 100vh;
+   
+    background-color: #061925;
+    color: white;
+    width: 255px;
+    /* transition: transform 0.3s ease; */
+  }
+  
+  .sidebar.closed {
+    transform: translateX(-200px);
+  }
+  
+
+  .sidebar-menu {
+    color: white;
+} 
+
+.sidebar-content {
+  display: flex; /* Utilizamos flexbox para controlar el diseño */
+  flex-wrap: wrap; /* Permitimos que los elementos se envuelvan en nuevas líneas */
+  gap: 2rem; /* Espacio entre elementos */
+  padding: 1rem;
+}
+

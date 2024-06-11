@@ -1,0 +1,40 @@
+.parent-search {
+    border-radius: 5px; 
+    width: 300px; /* Cambiado a un valor fijo para un mejor control del tamaño */
+    height: 40px; /* Ajustado el tamaño para un botón y un input proporcionados */
+    font-size: 16px; /* Tamaño de fuente ajustado para que sea legible */
+    margin: 7px;
+    position: relative;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    overflow: hidden; /* Asegura que el border-radius afecte a los elementos hijos */
+}
+
+.parent-search input[type=text] {
+    flex: 1;
+    height: 100%; /* Ajustado el alto para que ocupe toda la altura del contenedor */
+    border: none; /* Elimina el borde individual del input para que no interfiera con el border-radius */
+    outline: none;
+    padding: 0 10px; /* Ajusta el padding horizontal según tus necesidades */
+    box-sizing: border-box;
+    font-size: 16px; /* Tamaño de fuente ajustado para que sea legible */
+}
+
+.parent-search button {
+    flex: 0;
+    height: 100%; /* Ajustado el alto para que ocupe toda la altura del contenedor */
+    background-color: #0074D9;
+    color: #f2f2f2;
+    border: none; /* Elimina el borde individual del botón para que no interfiera con el border-radius */
+    cursor: pointer;
+    padding: 5px 15px; /* Ajustado el padding para dar un poco más de espacio al texto */
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0 5px 5px 0; /* Esquinas redondeadas en el lado derecho */
+}
+
+.parent-search button:hover {
+    background-color: #0056b3;
+    transition: .3s ease all;
+    opacity: 0.9; /* Ajustado para que el botón se vea un poco más claro al pasar el mouse */
+}

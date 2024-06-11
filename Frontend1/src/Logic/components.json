@@ -1,0 +1,203 @@
+{
+    "Estudiante": {
+        "sidebar": [
+            {
+                "title": "Seleccione Practica",
+                "href": "practicas",
+                "type": "dropdown",
+                "items": [
+                    "practica 1",
+                    "practica 2",
+                    "practica 3"
+                ],
+                "href_items": []
+            }
+        ],
+        "stepper": [
+            "Pre-inscripcion",
+            "Taller y evaluacion",
+            "Clasificación",
+            "Legalizacion de practicas",
+            "Seguimiento"
+        ]
+    },
+    "Profesor": {
+        "sidebar": [
+            {
+                "title": "",
+                "href": "practicas",
+                "type": "button",
+                "items": [],
+                "href_items": []
+            }
+        ],
+        "stepper": [
+            "Pre-inscripcion",
+            "Taller y evaluacion",
+            "Clasificación",
+            "Legalizacion de practicas",
+            "Seguimiento"
+        ]
+    },
+    "Facultad": {
+        "sidebar": [
+            {
+                "title": "Asignacion Docente",
+                "href": "",
+                "type": "button",
+                "items": [],
+                "href_items": []
+            },
+            {
+                "title": "Estudiantes Asignados",
+                "href": "",
+                "type": "button",
+                "items": [],
+                "href_items": []
+            },
+            {
+                "title": "Consulta Masiva",
+                "href": "",
+                "type": "button",
+                "items": [
+                    "Estudiante",
+                    "Profesor"
+                ],
+                "href_items": []
+            },
+            {
+                "title": "Estadistica",
+                "href": "",
+                "type": "button",
+                "items": [
+                    "Estudiante",
+                    "Profesor"
+                ],
+                "href_items": []
+            }
+        ],
+        "stepper": [
+            "Pre-inscripcion",
+            "Taller y evaluacion",
+            "Clasificación",
+            "Legalizacion de practicas",
+            "Seguimiento"
+        ]
+    },
+    "Centro-Progresa": {
+        "sidebar": [
+            {
+                "title": "Solicitud preinscripcion",
+                "href": "",
+                "type": "button",
+                "items": [],
+                "href_items": []
+            },
+            {
+                "title": "Consulta Masiva",
+                "href": "",
+                "type": "dropdown",
+                "items": [
+                    "Estudiante",
+                    "Empresa",
+                    "Profesor"
+                ],
+                "href_items": []
+            },
+            {
+                "title": "Estadisticas",
+                "href": "",
+                "type": "dropdown",
+                "items": [
+                    "Estudiante",
+                    "Empresa",
+                    "Profesor"
+                ],
+                "href_items": []
+            },
+            {
+                "title": "Inscripcion Empresas",
+                "type": "button",
+                "href": "",
+                "items": [],
+                "href_items": []
+            }
+        ],
+        "stepper": [
+            "Pre-inscripcion",
+            "Taller y evaluacion",
+            "Clasificación",
+            "Legalizacion de practicas",
+            "Seguimiento"
+        ]
+    },
+    "Admin": {
+        "sidebar": [
+            {
+                "title": "Seleccione Practica",
+                "href": "practicas",
+                "type": "dropdown",
+                "items": [
+                    "practica 1",
+                    "practica 2",
+                    "practica 3"
+                ],
+                "href_items": [
+                    "practicas",
+                    "practicas",
+                    "practicas"
+                ]
+            },
+            {
+                "title": "Asignacion Docente",
+                "href": "",
+                "type": "button",
+                "items": [],
+                "href_items": []
+            },
+            {
+                "title": "Estudiantes Asignados",
+                "href": "",
+                "type": "button",
+                "items": [],
+                "href_items": []
+            },
+            {
+                "title": "Consulta Masiva",
+                "href": "practicas",
+                "type": "dropdown",
+                "items": [
+                    "Estudiante",
+                    "Profesor",
+                    "Empresa"
+                ],
+                "href_items": [
+                    "manage",
+                    "manage",
+                    "manage"
+                ]
+            },
+            {
+                "title": "Estadistica",
+                "href": "practicas",
+                "type": "dropdown",
+                "items": [
+                    "Estudiante",
+                    "Profesor",
+                    "Empresa"
+                ],
+                "href_items": [
+                    "",
+                    "",
+                    ""
+                ]
+            }
+        ],
+        "stepper": [
+            "Pre-inscripcion",
+            "Taller y evaluacion",
+            "Clasificación",
+            "Legalizacion de practicas"
+        ]
+    }
+}

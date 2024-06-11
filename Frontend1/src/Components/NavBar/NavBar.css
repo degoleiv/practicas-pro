@@ -1,0 +1,56 @@
+.nav-parent {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); 
+    top: 0px;
+    background-color: #0a293d;
+    width: 100%;
+    
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none; 
+    padding: 0%;
+    margin: 0;
+    /* overflow: hidden; */
+    
+}
+
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.logoNav {
+    width: 150px;
+    height: auto;
+    justify-content: center;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 800px) {
+  
+    
+    ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        position: relative; /* Agregado para que el posicionamiento absoluto sea relativo a este contenedor */
+    }
+    
+    .parent-search {
+        position: relative;
+        width: 90%;
+    }
+    
+    .md-followCard {
+        position: fixed ;
+        right: 2%;
+        top: 1%; }
+    
+    
+}

@@ -1,0 +1,14 @@
+.FirstBarLogo{
+width: 3cm;
+display: block;
+margin-left: 0;
+}
+
+.FirstBar {
+  margin: 0px;
+  background-color: #0a293d;
+  padding: 10px;
+  text-align: center;
+  align-items: baseline;
+  
+  }

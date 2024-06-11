@@ -1,0 +1,43 @@
+.contenedor {
+    display: flex;
+    color: #0a293d;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .columna {
+    padding: 2vw;
+    width: 100%;
+    gap: 20px 70px;
+  }
+  
+  .columna1 {
+    background-color: #eee;
+  }
+  
+  .columna2 {
+    background-color: #eee;
+  }
+
+  .button-moodle {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    background-color: #0a293d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.icon-moodle {
+    height: 5vh;
+    width: auto;
+    margin-right: 5px;
+}
+
+.text-moodle {
+    margin-right: 5px; /* Margen derecho para separar la imagen del texto */
+}
+
+
+

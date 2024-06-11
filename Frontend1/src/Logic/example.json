@@ -1,0 +1,45 @@
+{
+    "Contrato Aprendizaje": {
+        "nombre":"Contrato Aprendizaje.pdf",
+        "video": "src/assets/videos_proyecto/Contrato_aprendizaje.mp4",
+        "manual": "src/assets/pdf_proyecto/Legalización Contrato de Aprendizaje.pdf",
+        "req_documents": ["Certificado de vinculacion", "Certificado de ARL", "Certificado de EPS"]
+    },
+    "Emprendimiento": {
+        "nombre":"Emprendimiento.pdf",
+        "video": "src/assets/videos_proyecto/Emprendimiento.mp4",
+        "manual": "src/assets/pdf_proyecto/Legalización Emprendimiento.pdf",
+        "req_documents": ["Subir Memorando"]
+    },
+    "Proyecto Especial": {
+        "nombre":"Proyecto Especial.pdf",
+        "video": "src/assets/videos_proyecto/Proyecto_especial.mp4",
+        "manual": "src/assets/pdf_proyecto/Legalización Convenio Proyecto Especial.pdf",
+        "req_documents": ["Certificado de vinculacion", "Certificado de EPS", "Certificado de ARL"]
+    },
+    "Investigación": {
+        "nombre":"Investigación.pdf",
+        "video": "src/assets/videos_proyecto/Investigacion.mp4",
+        "manual": "src/assets/pdf_proyecto/Legalización Investigación.pdf",
+        "req_documents": ["Subir Memorando"]
+    },
+    "Mentoría Docente": {
+        "nombre":"Mentoría Docente.pdf",
+        "video": "src/assets/videos_proyecto/Monitoria_docente.mp4",
+        "manual": "src/assets/pdf_proyecto/Legalización Monitoria Docente.pdf",
+        "req_documents": ["Subir Memorando", "Certificado de EPS", "Copia documento de identidad"]
+    },
+    "Vinculación Laboral": {
+        "nombre":"Vinculación Laboral.pdf",
+        "video": "src/assets/videos_proyecto/Vinculo_laboral.mp4",
+        "manual": "src/assets/pdf_proyecto/Legalización Vínculo Laboral Certificación.pdf",
+        "req_documents": ["Certificado de vinculacion", "Certificado de ARL", "Certificado de EPS"]
+    },
+    "Vínculo Laboral Intermediación": {
+        "nombre":"Vínculo Laboral Intermediación.pdf",
+        "video": "src/assets/videos_proyecto/Vinculo_laboral.mp4",
+        "manual": "src/assets/pdf_proyecto/Legalización Vínculo Laboral Certificación.pdf",
+        "req_documents": ["Certificado de vinculacion", "Carta de autorizacion para la elaboracion de proyectos o propuestas de mejora", "Certificado de ARL", "Certificado de EPS"]
+    }
+}
+

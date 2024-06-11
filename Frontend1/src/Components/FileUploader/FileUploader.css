@@ -1,0 +1,45 @@
+/* Contenedor del botón */
+.upload-button-container {
+  position: relative;
+}
+
+/* Estilo del botón personalizado */
+.upload-file-button {
+  background-color: #c6c6c6; /* Color de fondo */
+  color: rgb(18, 18, 18); /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Borde */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor al pasar por encima */
+  font-size: 16px; /* Tamaño de fuente */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  display: inline-block;
+  position: relative; /* Posición relativa para alinear el input */
+  overflow: hidden; /* Ocultar cualquier desbordamiento del input */
+}
+
+/* Estilo al pasar el cursor por encima */
+.upload-file-button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilo cuando el botón está desactivado */
+.upload-file-button:disabled {
+  background-color: #ccc; /* Color de fondo gris */
+  color: #666; /* Color de texto gris */
+  cursor: not-allowed; /* Cursor de no permitido */
+}
+
+/* Estilo para el input de archivo */
+.upload-file-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Tamaño igual al del botón */
+  height: 100%; /* Tamaño igual al del botón */
+  opacity: 0; /* Hacer el input invisible */
+  cursor: pointer;
+  z-index: 1; /* Asegurarse de que el input esté por encima del botón */
+}

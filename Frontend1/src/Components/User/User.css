@@ -1,0 +1,22 @@
+.md-followCard {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    gap: 1rem;
+    font-size: .8rem;
+    
+  }
+  
+  .md-followCard-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: space-between;
+  }
+
+  .md-followCard-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  
