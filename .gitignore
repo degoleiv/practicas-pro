@@ -1,0 +1,8 @@
+# Ignore any .env files
+**/*.env
+
+# Ignore the specific config.js file
+FrontendPracticas/src/Logic/config.js
+
+.vscode/
+.idea/
